@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Contact me</h1>
+    <form action="example/com/api" method="post"
+    <div>
+        <div>
+            <label for="firstName">First Name:</label> 
+        <input type="text" placeholder="Enter first Name" id="firstName" />
+        </div><br>
+
+        <div>
+            <label for="lastName">Last Name:</label> 
+        <input type="text" placeholder="Enter last Name " id="lastName" />
+    </div><br>
+
+<div>
+    <label for="password">Password:</label> 
+        <input type="password" placeholder="Password" id="password" />
+    </div><br>
+
+<div>
+    <label for="email">Email:</label> 
+        <input type="email" placeholder="Enter email" id="email" required />
+    </div>
+<div>
+    <h2>What services do you need</h2>
+
+    <label for="webDesign">Web Design:</label>
+    <input type="checkbox" id="webDesign" />
+
+    <label for="mobileApp">Mobile App:</label>
+    <input type="checkbox" id="mobileApp" />
+
+    <label for="logoDesign">Logo Design:</label>
+    <input type="checkbox" id="logoDesign" />
+       </div>
+       <div>
+        <h2>Method of payment</h2>
+        <label for="cash">Cash:</label>
+        <input type="radio" id="cash" name="payment"/>
+        <label for="transfer">Transfer:</label>
+        <input type="radio" id="transfer" name="payment" />
+       </div>
+       <div>
+        <h2>Upload an image</h2>
+        <input type="file" id="myFile" name="filename">
+
+       </div>
+       <hr>
+    <div>
+        <h2>Enter message</h2>
+        <textarea name="Message" id="form-message" cols="40" rows="10"></textarea>
+    </div>
+    <input type="submit">
+    </div>
+</body>
+</html>
